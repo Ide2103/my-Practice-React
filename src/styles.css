@@ -1,0 +1,86 @@
+.header {
+  background-color: #ccc098;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.page-title {
+  color: #7d8758;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-shadow: -3px 2px 0 #9ea58d;
+}
+
+.link {
+  color: #9ea58d;
+  text-decoration: none;
+  float: right;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.link:hover {
+  background-color: #efe6cd;
+  color: #7d8758;
+  height: 30px;
+  border-radius: 10px 10px 0 0;
+}
+
+.body {
+  background-color: #efe6cd;
+  width: 100%;
+  height: 600px;
+  padding: 10px;
+}
+
+.home {
+  width: 100%;
+  height: 900px;
+}
+
+/* MenuList */
+.list-cakes {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+}
+
+.list-cake-info {
+  text-decoration: none;
+  color: #7d8758;
+  margin: 0%;
+}
+
+.list-cake-info:hover {
+  text-decoration-line: underline;
+}
+
+.list-cake-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+}
+
+.list-cake-caption {
+  color: #7d8758;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+/* Cakes */
+.cake-detail {
+  font-size: 20px;
+  text-align: center;
+  color: #7d8758;
+  font-weight: bold;
+}
+
+.cake-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 30% 70% 60% 40% / 30% 30% 70% 70%;
+}
